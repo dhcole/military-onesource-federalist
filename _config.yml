@@ -1,0 +1,41 @@
+# Site settings
+title: Military OneSource
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "/military-onesource-federalist"
+url: "18f.github.io"
+
+# Header
+header:
+  logo_text: Military OneSource
+  logo_img: logo.png
+  nav:
+    - text: Deployment
+      link: /deployment
+    - text: Stress
+      link: /stress
+    - text: Education
+      link: /education
+
+# Edit pages
+edit_page:
+  enabled: false  # Enabled by default for pages and posts
+  text: "Edit this page »"
+  github:
+    author: "18f"
+    repo:   military-onesource-federalist
+    branch: gh-pages
+
+# Build settings
+markdown: redcarpet
+redcarpet:
+  extensions: [hard_wrap, tables]
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: template/page
