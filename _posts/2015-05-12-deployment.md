@@ -1,6 +1,7 @@
 ---
 title: Deployment Readiness
 permalink: /deployment/
+layout: "template/page"
 ---
 
 For a military family facing the challenges of a deployment, preparation is key! Research shows that while many families experience stress throughout the deployment cycle, certain issues tend to be tied to specific phases of the process. To help families cope before, during and after a deployment, the Department of Defense (DoD) offers a wide range of support programs and services in areas from emotional readiness and financial planning to communication strategies and reunion. The programs are designed to reduce stress and help your family through all stages of deployment.
